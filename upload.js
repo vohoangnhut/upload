@@ -7,7 +7,6 @@ function upload(req,res){
 
     console.log('come to upload ------')
 
-
     var namefile = '_' + Math.random().toString(36).substr(2, 9) + '.png';
 
     fs.writeFile( __dirname + namefile , req.body.file , 'base64', function(err) {
