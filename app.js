@@ -2,6 +2,8 @@ const express = require('express')
 const path =  require('path')
 const app = express();
 
+app.use(express.static(path.join(__dirname,'upload'),{maxAge: 0}))//315360000 }))
+
 app.set('port', process.env.PORT || 8080)
 
 app.get('/', (req,res)=>{
