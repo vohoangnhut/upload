@@ -20,7 +20,7 @@ app.get('/', (req,res)=>{
     res.end('still alive')
 })
 
-app.get('/upload' , uploadAPI.upload)
+app.get('/uploadImage' , uploadAPI.upload)
 
 app.listen(app.get('port'), function(){console.log(`app is running on port ${app.get('port')}`)})
 
