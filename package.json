@@ -1,0 +1,28 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "upload folder",
+  "main": "app.js",
+  "scripts": {
+    "test": "\u0016node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohoangnhut/upload.git"
+  },
+  "keywords": [
+    "nhut",
+    "vo",
+    "upload",
+    "folder"
+  ],
+  "author": "nhut vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vohoangnhut/upload/issues"
+  },
+  "homepage": "https://github.com/vohoangnhut/upload#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
