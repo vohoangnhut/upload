@@ -11,7 +11,7 @@ function upload(req,res){
 
     console.log('__dirname : '+ __dirname)
 
-    fs.writeFile( path.join(__dirname,'uploads/') + namefile , req.body.file , 'base64', function(err) {
+    fs.writeFile( path.join(__dirname,'uploads/'+ namefile) , req.body.file , 'base64', function(err) {
         if (err) {
             //response.send("failed to save");
             console.log("failed to save : ----" + err)
